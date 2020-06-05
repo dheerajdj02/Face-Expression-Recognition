@@ -9,7 +9,7 @@ model = load_model(r'C:\Users\Cooper\Desktop\Face Expression\assests\Emotion_mod
 
 class_labels = ['Angry','Happy','Sad','Neutral','Surprise']
 
-cap = cv2.VideoCapture(r'C:/Users/Cooper/Desktop/Face Expression/download.jpg') #0 for web cam and 1 for external camera r'C:/Users/Cooper/Desktop/Face Expression/download (1).jpg'
+cap = cv2.VideoCapture(0) #0 for web cam and 1 for external camera 
 
 while True:
     
